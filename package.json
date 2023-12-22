@@ -5,6 +5,9 @@
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
+    "@material-ui/icons": "^4.11.3",
+    "@mui/icons-material": "^5.15.1",
     "@reduxjs/toolkit": "1.9.7",
     "axios": "1.6.0",
     "loader-utils": "3.2.1",

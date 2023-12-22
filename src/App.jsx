@@ -1,6 +1,6 @@
 import { Routes, Route, NavLink } from "react-router-dom";
 
-import { VolunteerView, EventView } from "./components";
+import { VolunteerView, EventView, Footer } from "./components";
 import {
   VolunteerDetail,
   VolunteerForm,
@@ -45,6 +45,9 @@ export default function App() {
         <Route path="/events/add" element={<EventForm />} />
         <Route path="/events/edit/:id" element={<EventForm />} />
       </Routes>
+      <footer>
+        <Footer />
+      </footer>
     </div>
   );
 }
